@@ -1,2 +1,2 @@
 # lonelyor_python_script
-自己写的一些实用python脚本
+自己写的一些实用python脚本,每个脚本的描述都在首行注释里面。
