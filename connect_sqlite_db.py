@@ -1,8 +1,6 @@
-# description: 连接sqlite3数据库，然后执行（查询）操作
 # author: lonelyor
-# version: v0.1
 # time: 2018-06-11
-
+# description: 连接sqlite3数据库，然后执行（查询）操作
 
 import sqlite3
 
