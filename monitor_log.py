@@ -1,7 +1,6 @@
-# description: 可以用来分析nginx日志，如果是进行本地测试请用nano添加数据，不要使用vim等编辑器（因为这些编辑器添加数据的方式是：文件替换），正常的log是对文件进行追加，而不是替换。
 # author: lonelyor
-# version: v0.1
 # time: 2018-06-11
+# description: 可以用来分析nginx日志，如果是进行本地测试请用nano添加数据，不要使用vim等编辑器（因为这些编辑器添加数据的方式是：文件替换），正常的log是对文件进行追加，而不是替换。
 
 #import time你可以用这个模块来给该程序定时
 import subprocess

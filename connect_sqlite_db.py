@@ -10,7 +10,7 @@ conn = sqlite3.connect(sqlite3_db)
 print('连接成功')
 cur = conn.cursor()
 #查询语句
-cxyj = 'SELECT xxxxxxxxxxxxxxxx'
-cur.execute(cxyj)
+statement = 'SELECT xxxxxxxxxxxxxxxx'
+cur.execute(statement)
 res = cur.fetchall()
 print(res)

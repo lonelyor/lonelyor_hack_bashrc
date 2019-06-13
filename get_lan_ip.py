@@ -1,7 +1,6 @@
-# description: 获取本地ip地址（通过对本地网卡发送udp的方式获取）
 # author: lonelyor
-# version: v0.1
 # time: 2018-06-11
+# description: 获取本地局域网ip地址（通过对本地网卡发送udp的方式获取）
 
 import socket
 def get_host_ip():

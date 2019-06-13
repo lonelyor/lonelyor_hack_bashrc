@@ -1,7 +1,6 @@
-# description: 在当前目录创建sqlite3数据库
 # author: lonelyor
-# version: v0.1
 # time: 2018-06-11
+# description: 在当前目录创建sqlite3数据库
 
 import sqlite3
 import os
