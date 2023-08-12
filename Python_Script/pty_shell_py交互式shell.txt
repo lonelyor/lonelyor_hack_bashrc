@@ -1,0 +1,26 @@
+#在获取的 shell 中运行
+
+python -c 'import pty; pty.spawn("/bin/bash")'
+
+
+# 升级为完全交互
+"""
+# 攻击机本地执行
+# 首先检查当前终端和STTY信息
+$ echo $TERM      
+$ stty -a 
+# 接下来执行
+$ python -c 'import pty; pty.spawn("/bin/bash")'  //启用python交互式
+# 把它丢到后台挂起
+$ ctrl + z   
+# 重置stty，也就意味着你看不到输入的内容
+$ stty raw -echo  
+# 把后台挂起的程序调回前台
+$ fg  
+# 完全刷新终端屏幕
+$ reset  
+# 接下来设置环境变量，根据第一步得到的环境变量来设置
+$ export SHELL=bash   
+$ export TERM=xterm-256color   
+$ stty rows 行数 columns 列数  
+"""

@@ -10,7 +10,7 @@ import requests
 
 
 # 日志文件位置
-logfile = "/home/lonelyor/testlog.log"
+logfile = "~/testlog.log"
 print('监控的日志文件是: %s' % logfile)
 # 实时读取日志
 command='tail -f '+logfile

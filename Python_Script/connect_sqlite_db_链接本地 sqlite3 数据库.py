@@ -5,7 +5,7 @@
 import sqlite3
 
 #sqlite.db文件的位置
-sqlite3_db = '/home/lonelyor/document/xxx.db'
+sqlite3_db = '~/xxx.db'
 conn = sqlite3.connect(sqlite3_db)
 print('连接成功')
 cur = conn.cursor()
