@@ -4,6 +4,7 @@
 
 # 获取 ip 的接口
 '''
+http://www.3322.org/dyndns/getip
 http://whois.pconline.com.cn/ipJson.jsp
 http://pv.sohu.com/cityjson
 http://ip.360.cn/IPShare/info
@@ -17,7 +18,7 @@ https://www.taobao.com/help/getip.php
 
 import requests
 
-url = 'http://www.3322.org/dyndns/getip'
+url = 'https://www.taobao.com/help/getip.php'
 
 header = {
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3775.400 QQBrowser/10.6.4208.400'
