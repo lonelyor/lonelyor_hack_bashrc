@@ -1,0 +1,29 @@
+ZSH_THEME="random"
+
+DEFAULT_USER=" Lonelyor"
+
+plugins=(git extract zsh-autosuggestions cp colored-man-pages zsh-syntax-highlighting)
+
+# alias 清单
+
+alias zshconfig="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+alias l="ls | lolcat"
+alias ll="ls -al"
+alias la="ls -A | lolcat"
+alias lc="ls -CF | lolcat"
+alias vi="vim"
+alias copy="cp -i"
+alias rm="rm -i"
+alias python="python3"
+alias grep="grep --color=auto"
+alias ..="cd .."
+alias wget="wget -c"
+alias ping="ping -c 4 "
+alias tree="tree -N"
+alias unix13="python3 ~/Script/unix13.py | lolcat"
+alias uuid-32="python3 ~/Script/uuid-32.py | lolcat"
+alias uuid32="python3 ~/Script/uuid32.py | lolcat"
+alias r8="python3 ~/Script/r8.py | lolcat"
+alias flag="python3 ~/Script/flag.py"
+alias rmd="python3 ~/Script/rmd.py"
